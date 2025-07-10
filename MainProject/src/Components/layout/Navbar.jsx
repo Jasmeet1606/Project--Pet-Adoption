@@ -95,6 +95,12 @@ export default function Navbar(){
               Gallery
             </a>
           </li>
+
+           <li className="nav-item">
+            <Link to={"/services"} className="nav-link">
+              Services
+            </Link>
+          </li>
          
           <li className="nav-item">
             <Link to={"/blog"} className="nav-link">
@@ -106,8 +112,8 @@ export default function Navbar(){
               Contact
             </Link>
           </li>
-           <li className="nav-item">
-            <Link to={"/login"} className="nav-link">
+           <li className="nav-item mt-4 ">
+            <Link to={"/login"} className=" btn btn-primary ">
               Login
             </Link>
           </li>

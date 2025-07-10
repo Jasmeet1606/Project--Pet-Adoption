@@ -7,7 +7,7 @@ import Error from "./components/pages/Error"
 import Layout from "./Components/layout/layout"
 import Login from "./components/auth/Login"
 import Register from "./components/auth/Register"
-
+import Services from "./Components/Pages/Services"
 function App() {
   return (
    
@@ -19,7 +19,7 @@ function App() {
             <Route path="about" element={<About/>}/>
             <Route path="blog" element={<Blog/>}/>
             <Route path="contact" element={<Contact/>}/>
-           
+           <Route path="services" element={<Services/>}/>
             <Route path="login" element={<Login/>}/>
             <Route path="register" element={<Register/>}/>
           </Route>
