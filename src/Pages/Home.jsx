@@ -104,11 +104,6 @@ function Home()
             </a>
           </li>
           <li className="nav-item">
-            <a href="pricing.html" className="nav-link">
-              Pricing
-            </a>
-          </li>
-          <li className="nav-item">
             <a href="blog.html" className="nav-link">
               Blog
             </a>
@@ -125,7 +120,7 @@ function Home()
   {/* END nav */}
   <div
     className="hero-wrap js-fullheight"
-    style={{ backgroundImage: 'url("images/bg_1.jpg")' }}
+    style={{ backgroundImage: 'url("/assets/images/bg_1.jpg")' }}
     data-stellar-background-ratio="0.5"
   >
     <div className="overlay" />
@@ -223,7 +218,7 @@ function Home()
         <div className="col-md-5 d-flex">
           <div
             className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
-            style={{ backgroundImage: "url(images/about-1.jpg)" }}
+            style={{ backgroundImage: "url(/assets/images/about-1.jpg)" }}
           ></div>
         </div>
         <div className="col-md-7 pl-md-5 py-md-5">
@@ -344,7 +339,7 @@ function Home()
         <div className="col-lg-6 order-md-last">
           <div
             className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
-            style={{ backgroundImage: "url(images/about.jpg)" }}
+            style={{ backgroundImage: "url(/assets/images/about.jpg)" }}
           >
             <a
               href="https://vimeo.com/45830194"
@@ -356,11 +351,11 @@ function Home()
           <div className="d-flex mt-3">
             <div
               className="img img-2 mr-md-2"
-              style={{ backgroundImage: "url(images/about-2.jpg)" }}
+              style={{ backgroundImage: "url(/assets/images/about-2.jpg)" }}
             />
             <div
               className="img img-2 ml-md-2"
-              style={{ backgroundImage: "url(images/about-3.jpg)" }}
+              style={{ backgroundImage: "url(/assets/images/about-3.jpg)" }}
             />
           </div>
         </div>
